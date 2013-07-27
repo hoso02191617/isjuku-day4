@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<script type="text/javascript"src="jquery-2.0.3.min.js"></script>
+	</head>
+<body>
+	<div id="hoge">aaaaaa</div>
+	
+	
+	
+	<script type="text/javascript">
+	
+	$('#hoge').html(
+		$('#hoge').html()+'<p>a new paragraph</p>');
+		
+		 $(document).ready(function(){
+    // ここに実際の処理を記述します。
+
+		
+		$("#btn").click(function(){
+		alert($('#textdata').val());
+	})
+  });
+  
+	$(function(){
+		$('btn')
+	});
+		
+	</script>
+	<noscript>JavaScriptは利用できません</noscript>
+	
+	<p id="label"></p>
+	
+	<input type="text" id="textdata">
+	<input type="button" value="click" id="btn">
+	
+</body>
+</html>
